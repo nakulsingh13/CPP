@@ -11,7 +11,7 @@ int main(){
     for (int i=2;i<=sqrt(n);i++)
     {
         if(n%i==0){
-            cout<<"Not Prime"<<endl;
+            cout<<"Non Prime"<<endl;
             flag=1;
             break;
         }
